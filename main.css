@@ -1,0 +1,199 @@
+body {
+    background-color: #DCDCDC;
+}
+
+/*Container*/
+.container {
+    max-width: 1000px;
+    min-width:
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+}
+
+/*Boards*/
+.board-main {
+    width: 100%;
+    font-family: "Arial";
+    font-size:17px;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction:row;
+    
+    
+}
+
+.board1 {
+    border-radius: 8px;
+    background: #F0FFF0;
+    height: auto;
+    width: 69%;
+    min-width: 336px;
+    margin: 12px;
+    float: left;
+    display: inline-block;
+}
+
+.board2 {
+    border-radius: 8px;
+    background: #F0FFF0;
+    width: 25%;
+    height: auto;
+    min-width: 115px;
+    min-height: 180px;
+    margin: 12px;
+    display: inline-block;
+}
+
+.board-search {
+    margin: 5px;
+    padding: 7px;
+}
+
+.board-item {
+    padding: 7px;
+    border-top: 1px solid #DCDCDC;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.board-block {
+    border-top: 1px solid #DCDCDC;
+    min-height: 49%;
+}
+
+/*Block of buttons*/
+.buttons-number {
+    width: 26%;
+	margin: auto;
+}
+
+.buttons-product {
+    width: 14%;
+	min-width: 95px;
+}
+
+/*Textbox*/
+.textbox-search {
+    width:auto;
+}
+
+
+/*Product names*/
+.text-product {
+    width: 36%;
+    padding: 6px;
+	left: 5px;
+}
+
+/*Label with amount of products*/
+.label-amount {
+    background: white;
+    padding: 2px;
+    border: 1px solid grey;
+}
+
+/*Text formats*/
+.text-search {
+    width:30%;
+}
+
+.text-white {
+    color:white;
+}
+
+.text {
+    padding: 15px;
+    font-size: 1.7rem;
+    font-family: "Arial";
+}
+
+.button-minus {
+    background: #CD5C5C;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+/*Buttons*/
+.button-search {
+    background: #87CEFA;
+    color: white;
+    cursor: pointer;
+	border: 1px solid #87CEFA;
+}
+
+.button-plus {
+    background: #98FB98;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.button-bought {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-delete {
+    background: #CD5C5C	;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 850;
+}
+
+/*Products left board*/
+.products-left {
+    display: block;
+    border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+    background: white;
+    min-height: 70%;
+}
+
+/*Products bought board*/
+.products-bought {
+    display: block;
+    border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+    background: white;
+    min-height: 70%;
+}
+
+/*Panel of product*/
+.panel-amount {
+    display: inline-block;
+    align-items: stretch;
+    background: #DCDCDC;
+    min-width: 50px;
+    font-size: 10px;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: center;
+}
+
+/*Icon of an amount*/
+.icon-amount {
+    border-radius: 7px;
+    background:orange;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+.block-search {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    padding: 2px;
+    font-size: 20px;
+}
+
+
+.searchbar {
+	flex: 1 0 auto;
+}
